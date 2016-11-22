@@ -1,0 +1,345 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FA432B561C0EDA8400E7DBDB /* Conversions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA432B551C0EDA8400E7DBDB /* Conversions.swift */; };
+		FA70E6471C102EEC00404623 /* OptionsController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA70E6461C102EEC00404623 /* OptionsController.swift */; };
+		FADC1CBA1C0E509B00C55F5D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC1CB91C0E509B00C55F5D /* AppDelegate.swift */; };
+		FADC1CBC1C0E509B00C55F5D /* MainController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FADC1CBB1C0E509B00C55F5D /* MainController.swift */; };
+		FADC1CBF1C0E509B00C55F5D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC1CBD1C0E509B00C55F5D /* Main.storyboard */; };
+		FADC1CC11C0E509B00C55F5D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FADC1CC01C0E509B00C55F5D /* Assets.xcassets */; };
+		FADC1CC41C0E509B00C55F5D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FADC1CC21C0E509B00C55F5D /* LaunchScreen.storyboard */; };
+		FAFC960E1C0EB3E500AB1F48 /* BLE.swift in Sources */ = {isa = PBXBuildFile; fileRef = FAFC96071C0EB3E500AB1F48 /* BLE.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		FA432B551C0EDA8400E7DBDB /* Conversions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Conversions.swift; sourceTree = "<group>"; };
+		FA70E6461C102EEC00404623 /* OptionsController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OptionsController.swift; sourceTree = "<group>"; };
+		FADC1CB61C0E509B00C55F5D /* LED Table.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "LED Table.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FADC1CB91C0E509B00C55F5D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FADC1CBB1C0E509B00C55F5D /* MainController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainController.swift; sourceTree = "<group>"; };
+		FADC1CBE1C0E509B00C55F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FADC1CC01C0E509B00C55F5D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FADC1CC31C0E509B00C55F5D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FADC1CC51C0E509B00C55F5D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FAFC96071C0EB3E500AB1F48 /* BLE.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BLE.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FADC1CB31C0E509B00C55F5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FA432B541C0EDA7400E7DBDB /* Conversions */ = {
+			isa = PBXGroup;
+			children = (
+				FA432B551C0EDA8400E7DBDB /* Conversions.swift */,
+			);
+			name = Conversions;
+			sourceTree = "<group>";
+		};
+		FADC1CAD1C0E509B00C55F5D = {
+			isa = PBXGroup;
+			children = (
+				FADC1CB81C0E509B00C55F5D /* LED Table */,
+				FADC1CB71C0E509B00C55F5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FADC1CB71C0E509B00C55F5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FADC1CB61C0E509B00C55F5D /* LED Table.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FADC1CB81C0E509B00C55F5D /* LED Table */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC96141C0EB40400AB1F48 /* View Controllers */,
+				FAFC96051C0EB3E500AB1F48 /* Frameworks */,
+				FADC1CB91C0E509B00C55F5D /* AppDelegate.swift */,
+				FADC1CBD1C0E509B00C55F5D /* Main.storyboard */,
+				FADC1CC01C0E509B00C55F5D /* Assets.xcassets */,
+				FADC1CC21C0E509B00C55F5D /* LaunchScreen.storyboard */,
+				FADC1CC51C0E509B00C55F5D /* Info.plist */,
+			);
+			path = "LED Table";
+			sourceTree = "<group>";
+		};
+		FAFC96051C0EB3E500AB1F48 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FA432B541C0EDA7400E7DBDB /* Conversions */,
+				FAFC96061C0EB3E500AB1F48 /* BLE */,
+			);
+			path = Frameworks;
+			sourceTree = "<group>";
+		};
+		FAFC96061C0EB3E500AB1F48 /* BLE */ = {
+			isa = PBXGroup;
+			children = (
+				FAFC96071C0EB3E500AB1F48 /* BLE.swift */,
+			);
+			path = BLE;
+			sourceTree = "<group>";
+		};
+		FAFC96141C0EB40400AB1F48 /* View Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				FADC1CBB1C0E509B00C55F5D /* MainController.swift */,
+				FA70E6461C102EEC00404623 /* OptionsController.swift */,
+			);
+			name = "View Controllers";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FADC1CB51C0E509B00C55F5D /* LED Table */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FADC1CC81C0E509B00C55F5D /* Build configuration list for PBXNativeTarget "LED Table" */;
+			buildPhases = (
+				FADC1CB21C0E509B00C55F5D /* Sources */,
+				FADC1CB31C0E509B00C55F5D /* Frameworks */,
+				FADC1CB41C0E509B00C55F5D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "LED Table";
+			productName = "LED Table";
+			productReference = FADC1CB61C0E509B00C55F5D /* LED Table.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FADC1CAE1C0E509B00C55F5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Alex Todd";
+				TargetAttributes = {
+					FADC1CB51C0E509B00C55F5D = {
+						CreatedOnToolsVersion = 7.1.1;
+						DevelopmentTeam = 723M8R8Y3W;
+					};
+				};
+			};
+			buildConfigurationList = FADC1CB11C0E509B00C55F5D /* Build configuration list for PBXProject "LED Table" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FADC1CAD1C0E509B00C55F5D;
+			productRefGroup = FADC1CB71C0E509B00C55F5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FADC1CB51C0E509B00C55F5D /* LED Table */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FADC1CB41C0E509B00C55F5D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FADC1CC41C0E509B00C55F5D /* LaunchScreen.storyboard in Resources */,
+				FADC1CC11C0E509B00C55F5D /* Assets.xcassets in Resources */,
+				FADC1CBF1C0E509B00C55F5D /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FADC1CB21C0E509B00C55F5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FA432B561C0EDA8400E7DBDB /* Conversions.swift in Sources */,
+				FAFC960E1C0EB3E500AB1F48 /* BLE.swift in Sources */,
+				FADC1CBC1C0E509B00C55F5D /* MainController.swift in Sources */,
+				FADC1CBA1C0E509B00C55F5D /* AppDelegate.swift in Sources */,
+				FA70E6471C102EEC00404623 /* OptionsController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FADC1CBD1C0E509B00C55F5D /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADC1CBE1C0E509B00C55F5D /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FADC1CC21C0E509B00C55F5D /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FADC1CC31C0E509B00C55F5D /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FADC1CC61C0E509B00C55F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FADC1CC71C0E509B00C55F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FADC1CC91C0E509B00C55F5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LED Table/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ATodd.iLED-Table";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FADC1CCA1C0E509B00C55F5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = "LED Table/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.ATodd.iLED-Table";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FADC1CB11C0E509B00C55F5D /* Build configuration list for PBXProject "LED Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC1CC61C0E509B00C55F5D /* Debug */,
+				FADC1CC71C0E509B00C55F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FADC1CC81C0E509B00C55F5D /* Build configuration list for PBXNativeTarget "LED Table" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FADC1CC91C0E509B00C55F5D /* Debug */,
+				FADC1CCA1C0E509B00C55F5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FADC1CAE1C0E509B00C55F5D /* Project object */;
+}
